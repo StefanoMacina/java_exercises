@@ -1,0 +1,2 @@
+Scrivere un programma SoloVocali che chiede all’utente di inserire una stringa e ne
+stampa le sole vocali. Per esempio, se si immette la stringa "Viva Java", il programma stampa "iaaa"

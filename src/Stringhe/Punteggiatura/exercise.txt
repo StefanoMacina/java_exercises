@@ -1,0 +1,4 @@
+Scrivere un programma Punteggiatura che chiede all’utente di inserire una sequenza
+di stringhe conclusa dalla stringa vuota e poi stampa il numero di caratteri di punteggiatura (.,;:!?)
+in esse contenuti. Per esempio, se si immettono le stringhe "Albero.", "foglia, radice, fiore",
+"tronco: cavo", "ramo!", "Frutto" (e poi "" per finire), il programma stampa 5

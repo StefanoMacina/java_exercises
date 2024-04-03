@@ -1,0 +1,5 @@
+Esercizio 2.3:
+Scrivere un programma MediaMultipliDiTre che chiede all’utente di inserire una se-
+quenza di interi (chiedendo prima quanti numeri voglia inserire) e poi stampa la media di tutti i numeri
+inseriti che siano divisibili per tre. Per esempio, se si immettono i valori 5, 8, 9, 12, 7, 6 ,1 il
+risultato stampato dovr`a essere 9. Risolvere questo esercizio senza usare array

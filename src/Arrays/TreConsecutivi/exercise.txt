@@ -1,0 +1,4 @@
+Scrivere un programma TreConsecutivi che prevede un array di 10 numeri interi conte-
+nente valori a piacere (senza bisogno di chiederli all’utente) e stampa "Tre valori consecuitivi uguali"
+se l’array contiene tre valori uguali in tre posizioni consecutive, oppure stampa "NO" altrimenti. (Il pro-
+gramma deve essere scritto facendo finta di non sapere quali siano i valori inseriti nell’array)

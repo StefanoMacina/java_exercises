@@ -1,0 +1,5 @@
+Scrivere un programma Concatena che chiede all’utente di inserire tre singole parole e
+le ristampa interponendovi un asterisco. Per esempio, se l’utente inserisce "gatto", "cane" e "topo" il
+programma stamper`a gatto*cane*topo. La concatenazione delle tre parole dovr`a essere fatta utilizzando
+un metodo ausiliario che prende due stringhe e restituisce la stringa ottenuta concatenando la prima
+parola ricevuta, un asterisco e la seconda parola ricevuta.

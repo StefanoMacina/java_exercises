@@ -1,0 +1,5 @@
+Scrivere un programma Ripeti che chiede all’utente di inserire una stringa e un numero
+intero positivo. Entrambe le cose dovranno essere passate a un metodo ausiliario che stamper`a tante
+copie della stringa quante indicate nel numero inserito dall’utente. Se il numero inserito dall’utente `e
+negativo il metodo ausiliario stamper`a "ERRORE: numero negativo". Il nome del metodo ausiliario pu`o
+essere scelto a piacere.

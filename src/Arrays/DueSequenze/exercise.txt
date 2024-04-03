@@ -1,0 +1,5 @@
+Scrivere un programma DueSequenze che chiede all’utente di inserire due sequenze di
+stringhe, ciascuna di 5 elementi, e poi stampa il messaggio "OK" se almeno una stringa della prima
+sequenza compare anche nella seconda, altrimenti stampa il messaggio "NO". Nel caso in cui le due
+sequenza abbiano almeno una stringa in comune, i confronti tra le sequenze si devono interrompere non
+appena una coppia di stringhe uguali viene trovata.

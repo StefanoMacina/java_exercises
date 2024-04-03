@@ -1,0 +1,2 @@
+Scrivere un programma Contrario che chiede all’utente di inserire una stringa e la
+stampa al contrario. Per esempio, se si immette la stringa "Viva Java", il programma stampa "avaJ aviV"

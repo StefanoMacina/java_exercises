@@ -1,0 +1,4 @@
+Scrivere un programma SecondoArray che chiede all’utente di inserire 10 numeri interi
+e li memorizza in un array. Successivamente, crea un nuovo array di dimensione pari al numero di valori
+maggiori o uguali a zero inseriti dall’utente. Copia tutti i valori maggiori o uguali a zero nel nuovo array
+e ne stampa i valori in ordine inverso

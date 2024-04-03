@@ -1,0 +1,4 @@
+Scrivere un programma TuttiPositiviPari che chiede all’utente di inserire una se-
+quenza di interi (chiedendo prima quanti numeri voglia inserire) e poi, al termine dell’inserimento
+dell’intera sequenza, stampa "Tutti positivi e pari" se i numeri inseriti sono tutti positivi e pari,
+altrimenti stampa "NO". Risolvere questo esercizio senza usare array.
