@@ -4,9 +4,22 @@ import java.util.Arrays;
 
 public class ExtraSpace {
 
-    public static int removeDuplicates(int[] a, int size){
+    public static int[] checkSorting(int[] a){
+        boolean isSorted = true;
+        for(int i=0;i<a.length-1;i++)
+        {
+            if(a[i] != a[i+1] && a[i] < a[i+1]){
+                isSorted = false;
+            }
+        }
+        if(!isSorted) Arrays.sort(a);
+        return a;
+    }
 
+    public static int removeDuplicates(int[] a, int size){
         if(size == 0 || size == 1) return size;
+        checkSorting(a);
+
         int[] temp = new int[size];
         int count = 0;
 
@@ -32,7 +45,7 @@ public class ExtraSpace {
     }
 
     public static void main(String[] args) {
-        int[] a = {1,1,2,2,3,4,4,5,5};
+        int[] a = {1,1,2,3,2,4,4,5,5};
         int n = removeDuplicates(a,a.length);
 
         for(int i=0;i<=n;i++)
