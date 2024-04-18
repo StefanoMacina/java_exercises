@@ -14,10 +14,10 @@ public class Main {
 
 
         // use Arrays.setAll or List.replaceAll to
-        // 1) transform names to all uppercase;
+        // 1) transform names to all uppercase
 
-        UnaryOperator<String> setUpperCase = name -> name.toUpperCase();
-        Arrays.setAll(names, i -> setUpperCase.apply(names[i]) );
+        System.out.println("------ to upper case ------");
+        Arrays.setAll(names, i -> names[i].toUpperCase() );
 
         Arrays.asList(names).forEach(System.out::println);
 
@@ -31,6 +31,7 @@ public class Main {
         Arrays.setAll(names,i -> addRandomLetter.apply(names[i]));
         Arrays.asList(names).forEach(System.out::println);
 
+        // 3) add a lastname wich is reversed name
         System.out.println("----- with lastname reverse of the firstname -----");
 
         UnaryOperator<String> addreversedNameAsLastname = (source) -> {
@@ -46,7 +47,7 @@ public class Main {
         Arrays.asList(names).forEach(System.out::println);
         System.out.println("----- ArrayList from names array removing any names where the last name equales the first name -----");
 
-        // 3) create a new modifiable ArrayList from names array removing any names where the last name equales the first name
+        // 4) create a new modifiable ArrayList from names array removing any names where the last name equales the first name
         List<String> modifiableArray = new ArrayList<>(List.of(names));
 
         Predicate<String> removeIfNameEqualsLastname = source -> {

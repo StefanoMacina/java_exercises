@@ -25,7 +25,7 @@ public class Main {
         };
 
         printWords.accept("print this line");
-        printWordsLambda.accept("print this lambda");
+        printWordsLambda.accept("some text");
     }
 }
 
