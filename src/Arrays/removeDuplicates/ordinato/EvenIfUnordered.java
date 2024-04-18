@@ -2,13 +2,13 @@ package Arrays.removeDuplicates.ordinato;
 
 import java.util.Arrays;
 
-public class ExtraSpace {
+public class EvenIfUnordered {
 
     public static int[] checkSorting(int[] a){
         boolean isSorted = true;
         for(int i=0;i<a.length-1;i++)
         {
-            if(a[i] != a[i+1] && a[i] < a[i+1]){
+            if(a[i] < a[i+1]){
                 isSorted = false;
             }
         }
@@ -40,7 +40,6 @@ public class ExtraSpace {
         {
             a[i]=temp[i];
         }
-
         return count;
     }
 
